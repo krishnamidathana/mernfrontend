@@ -1,17 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom/client"; // Importing ReactDOM's createRoot method
+import "./index.css";
+import App from "./App"; // Importing the main App component
+import { createStore } from "redux"; // Importing createStore from Redux for creating the store
+import { Provider } from "react-redux"; // Importing Provider from React Redux for providing the Redux store to the component tree
+import rootReducer from "./reducers"; // Importing the root reducer
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Create the Redux store using the root reducer
+const store = createStore(rootReducer);
+
+// Create a root for ReactDOM to render the application
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// Render the application within StrictMode to catch potential issues
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

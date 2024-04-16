@@ -1,0 +1,23 @@
+.path-line {
+    font-family: Arial, sans-serif;
+    
+    color: grey; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    gap: 5px;
+  }
+  
+  .actives {
+    color:black; 
+    font-size: 20px;
+
+  }
+
+  .path-line div {
+    margin-top: 3px; 
+  }
+  
+  

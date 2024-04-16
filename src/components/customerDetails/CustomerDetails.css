@@ -1,0 +1,77 @@
+/* Styles for the container holding customer details */
+.customer-details-container {
+    width: 100%;
+    max-width: 95%; 
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+  }
+
+  
+/* Styles for the heading of customer details */
+.customer-details-heading{
+  background-color: rgb(55, 163, 55);
+  box-shadow: none; 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Styles for top and bottom lines */
+.topLine,.bottomLine{
+    display: flex;
+    flex-direction: row;
+    flex: 1; 
+    margin-right: 15px; 
+  }
+
+
+/* Styles for pairs of information */
+.pairs{
+    display: flex;
+    flex-direction: row;
+    flex: 1; 
+    margin-right: 15px; 
+  }
+
+
+  /* Styles for the first child of div elements */
+  div p:first-child{
+    font-weight: bold;
+    margin-right: 30px;
+    width: 140px;
+  }
+
+
+  /* Styles for the second child of div elements */
+  div p:nth-child(2){
+    color: grey;
+    font-weight: bold;
+
+  }
+
+
+  /* Styles for the password button */
+  .password-button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(55, 163, 55);
+    box-shadow: none; /* Remove shadow for /* Blue background color for button */
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    
+  }
+  
+
+  
+/* Hover styles for the password button */
+  .password-button:hover {
+    background-color: rgb(70, 172, 70); 
+  }

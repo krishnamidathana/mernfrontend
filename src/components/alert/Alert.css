@@ -1,0 +1,30 @@
+/* Styles for the alert component */
+.alert {
+  background-color: #69ee88;
+  color: black;
+  padding: 40px 80px;
+  border: 1px solid #f5c6cb;
+  margin-bottom: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 9999; 
+}
+
+/* Success alert styles */
+.alert.success {
+  background-color: #69ee88;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+
