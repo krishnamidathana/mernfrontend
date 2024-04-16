@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mernfrontend/static/css/main.7f8bbb2b.css",
+    "main.js": "/mernfrontend/static/js/main.df9f3673.js",
+    "index.html": "/mernfrontend/index.html",
+    "main.7f8bbb2b.css.map": "/mernfrontend/static/css/main.7f8bbb2b.css.map",
+    "main.df9f3673.js.map": "/mernfrontend/static/js/main.df9f3673.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f8bbb2b.css",
+    "static/js/main.df9f3673.js"
+  ]
+}
