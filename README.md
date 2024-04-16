@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+LIVE PROJECT LINK- https://krishnamidathana.github.io/mernfrontend/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GITHUB REPOSITORY LINK ( FRONT-END )- https://github.com/krishnamidathana/mernfrontend
 
-## Available Scripts
+GITHUB REPOSITORY LINK ( BACK-END )- https://github.com/krishnamidathana/mernbackend
 
-In the project directory, you can run:
+KEY HIGHLIGHTS OF THE PROJECT:
 
-### `npm start`
+Confirmation Email to the Customer: A confirmation email is sent to the customer's registered email address, providing a personalized welcome message and confirming their successful registration.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+View Details of a Particular Customer: Can view detailed information of a specific customer by searching for them using various criteria such as name, mobile number, email, or the date they registered on.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Search Functionality: The project includes a search functionality allowing users to search for customers by name, mobile number, email, or registration date. This enhances user experience by providing quick access to specific customer details.
 
-### `npm test`
+Delete Customer: Ability to delete a particular customer from the database. This feature enables the management of customer data and ensures data accuracy and cleanliness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Update Customer Details: Users can update the details of a customer, such as their name, contact information, or any other relevant details. This ensures that customer information remains up-to-date and accurate.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Create Customer: The project allows users to register new customers by providing necessary details such as name, contact information, and email address. This functionality facilitates the addition of new customers to the system.
